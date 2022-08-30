@@ -1,4 +1,4 @@
-# Lab-1: Write a function which return all the unique palindrome frome a given string
+# Lab-1: Write a function which return all the unique palindrome frome a given string.
 
 # Expand in both directions of `low` and `high` to find all palindromes
 def expand(s, low, high, palindromes):
@@ -12,7 +12,6 @@ def expand(s, low, high, palindromes):
         # Expand in both directions
         low = low - 1
         high = high + 1
- 
  
 # Function to find all unique palindromic substrings of a given string
 def findPalindromicSubstrings(s):
