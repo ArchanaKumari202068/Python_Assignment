@@ -9,4 +9,6 @@ def find_duplicate(A):
                 result.add(A[i])
     return result            
 x = [1,2,3,4,2,7,7,4]
+
+# function called
 print(find_duplicate(x))
