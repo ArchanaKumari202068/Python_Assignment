@@ -1,6 +1,8 @@
+# created function to find duplicate element in list
 def find_duplicate(A):
-    result= set([])
-    
+
+# created set variable to store the resulted elem
+    result= set([]) 
     for i in range (0,len(x)):
         for j in range(i+1,len(x)):
             if x[i]==x[j]:
