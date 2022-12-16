@@ -8,7 +8,6 @@ class Job:
     profit: int
     deadline: int
 
-
 if __name__ == '__main__':
     # taking input from users
     job_names = input("Enter Job names: ").split(" ")
