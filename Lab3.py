@@ -1,5 +1,5 @@
+ # Lab-3: WAP to represent data required for "Job Sequencing with Deadlines" using dataclass
 from dataclasses import dataclass
-
 
 # Job class with 3 required properties
 @dataclass
